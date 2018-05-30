@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+   /* .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: rgb(240, 248, 255);
+        font-size: 80px;
+        font-style: oblique;
+        text-align: center;
+        margin:5cm
+        width: auto;
+        background-color: crimson;
+        position: relative;
+            top: 10;
+            left: 10px;
+        
+    } 
+    .registro{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: rgb(119, 182, 238);
+        font-size: 15px;
+        position: relative;
+        top: -100px;
+        left: 1780px;
+    } */
+    </style>
+</head>
+<body>
+    <header style="background-image: url()" > 
+        <table style="width:100%; padding: 15px">
+            <tr>
+                <th><img src="EscudoOlimpico.jpg" style="width:128px;height:128px;"></th>
+                <th><h1 style="font-family: Arial, Helvetica, sans-serif; font-weight:bolder; font-size: 80px; text-align: center">DEPORTEANDO</h1></th>
+                <th><p><a href="Formulario.js">Regístrate aquí</a></p></th>  
+            </tr>
+         </table>
+    </header>
+    <nav style="background-color: goldenrod">
+        <a href="url">Noticias</a>
+        <a href="url">Artículos</a>
+        <a href="url">Contacto</a>
+        <a href="url">Colabora</a>
+    </nav>
+    <section style="background-color: forestgreen">
+        <article style="background-color: green">
+            <p>Aquí irán nuestras entradas.</p>
+        </article>
+    </section>
+    <aside style="background-color: hotpink">
+        <lu>
+            <li> Entrada 1</li>
+            <li> Entrada 2</li>
+            <li> Entrada 3</li>            
+        </lu>
+    </aside>
+    <br />
+    <br />
+    <br />
+        Fue un gusto tenerte por aquí,</br>
+        dejanos un mensaje en cualquiera de nuestras redes sociales</br> 
+        ó a nuestro correo:</br>
+        deporcontact@gmail.com</br> </p>
+          
+       
+         <br />
+          
+           <div id="after_submit"></div>
+       <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+         <div class="row">
+           <label class="required" for="name">Tu nombre:</label><br />
+           <input id="name" class="input" name="name" type="text" value="" size="70" /><br />
+           <span id="name_validation" class="error_message"></span>
+         </div>
+         
+         <div class="row">
+           <label class="required" for="email">Tu correo:</label><br />
+           <input id="email" class="input" name="email" type="text" value="" size="60" /><br />
+           <span id="email_validation" class="error_message"></span>
+         </div>
+         
+         <div class="row">
+           <label class="required" for="message">Comentario:</label><br />
+           <textarea id="message" class="input" name="message" rows="10" cols="50"></textarea><br />
+           <span id="message_validation" class="error_message"></span>
+         </div>
+           
+           <input id="submit_button" type="submit" value="Enviar" />
+       </form>
+       
+    <footer style="background-color: grey">
+        <br />
+<p>Deporteando 2018. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
